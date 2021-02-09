@@ -10,7 +10,7 @@ namespace Raylib_Chip8Emu
             var renderer = new Renderer();
             var cpu = new Cpu(renderer);
             
-            cpu.Init("/run/media/comlarsic/9CC2-5E4B/Apps/Roms/Chip-8/c8games/BRIX");
+            cpu.Init("[Rom path here]");
             
             while (!Raylib.WindowShouldClose())
             {
